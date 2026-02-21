@@ -154,23 +154,11 @@ npx http-server
 
 ---
 
-## Deploy to GitHub Pages
-
-1. Fork or clone this repository
-2. Go to repository **Settings**
-3. Navigate to **Pages** section
-4. Under **Source**, select **main** branch
-5. Click **Save**
-6. Your site will be live at: `https://syed-ayaan-alii.github.io/portfolio-website`
-
----
-
 ## Contact
 
 **Syed Ayaan Ali**
 
 - **Email:** ali.ayaan1107@gmail.com
-- **Phone:** +91 7000212793
 - **Location:** Bhopal, MP, India
 - **LinkedIn:** [linkedin.com/in/syed-ayaan-ali](https://www.linkedin.com/in/syed-ayaan-ali)
 - **GitHub:** [github.com/syed-ayaan-alii](https://github.com/syed-ayaan-alii)
