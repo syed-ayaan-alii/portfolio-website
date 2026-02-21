@@ -24,9 +24,10 @@ DevOps Engineer with hands-on experience in cloud infrastructure, containerizati
 
 - **Responsive Design** - Works on all devices (desktop, tablet, mobile)
 - **Interactive Navigation** - Smooth page transitions
+- **Resume Download** - One-click PDF download available
 - **Project Showcase** - Detailed descriptions of my DevOps projects
 - **Contact Form** - Easy way to get in touch
-- **Resume Section** - Complete professional resume online
+- **Complete Resume** - Full professional resume viewable online
 
 ---
 
@@ -163,6 +164,8 @@ npx http-server
 - **LinkedIn:** [linkedin.com/in/syed-ayaan-ali](https://www.linkedin.com/in/syed-ayaan-ali)
 - **GitHub:** [github.com/syed-ayaan-alii](https://github.com/syed-ayaan-alii)
 - **Portfolio:** [syed-ayaan-alii.github.io/portfolio-website](https://syed-ayaan-alii.github.io/portfolio-website)
+
+*For additional contact information, please visit my portfolio website or download my resume.*
 
 ---
 
