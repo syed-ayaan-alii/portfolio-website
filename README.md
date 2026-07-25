@@ -184,4 +184,4 @@ This project is open source and available for personal use.
 ---
 
 **Built with ❤️ by Syed Ayaan Ali**  
-*Last Updated: February 2025*
+*Last Updated: July 2026*
