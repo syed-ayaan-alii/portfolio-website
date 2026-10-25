@@ -1,113 +1,97 @@
 # Syed Ayaan Ali - DevOps Engineer Portfolio
 
-A modern, responsive portfolio website showcasing my DevOps engineering skills and projects.
+A responsive portfolio website showcasing my DevOps experience, projects, and resume.
 
-**🌐 Live Portfolio:** [https://syed-ayaan-alii.github.io/portfolio-website](https://syed-ayaan-alii.github.io/portfolio-website)
+**Live Portfolio:** [syed-ayaan-alii.github.io/portfolio-website](https://syed-ayaan-alii.github.io/portfolio-website)
 
 ---
 
 ## About Me
 
-DevOps Engineer with hands-on experience in cloud infrastructure, containerization, and CI/CD automation.
+DevOps Engineer with hands-on internship experience at KUBICL, working with AWS cloud infrastructure, Docker, and Kubernetes for deploying and managing applications. I use Terraform for Infrastructure as Code and GitHub Actions with ArgoCD to automate deployments.
 
-**Core Skills:**
-- Cloud Infrastructure (AWS: EC2, S3, IAM, VPC)
-- Containerization (Docker, Kubernetes)
-- Infrastructure as Code (Terraform)
-- CI/CD (GitHub Actions, ArgoCD)
-- Monitoring (Prometheus, Grafana)
-- Scripting (Python, Bash)
+**Skills**
+
+- **Cloud:** Amazon Web Services (AWS) - EC2, S3, IAM, VPC
+- **Containers and Orchestration:** Docker, Kubernetes
+- **Infrastructure as Code:** Terraform
+- **CI/CD and GitOps:** GitHub, GitHub Actions, ArgoCD
+- **Monitoring and Observability:** Prometheus, Grafana
+- **Operating Systems:** Linux
 
 ---
 
 ## Portfolio Features
 
-- **Responsive Design** - Works on all devices (desktop, tablet, mobile)
-- **Interactive Navigation** - Smooth page transitions
-- **Resume Download** - One-click PDF download available
-- **Project Showcase** - Detailed descriptions of my DevOps projects
-- **Contact Form** - Easy way to get in touch
-- **Complete Resume** - Full professional resume viewable online
+- **Responsive design** - works on desktop, tablet, and mobile
+- **Single-page navigation** - About, Resume, and Contact sections
+- **Resume download** - one-click PDF download
+- **Projects** - details of my DevOps projects
+- **Contact page** - contact details and location map
 
 ---
 
-## Projects Highlighted
+## Projects
 
-### 1. Cloud-Native Microservices Deployment
-**Technologies:** AWS, Docker, Kubernetes, Terraform, ArgoCD
+### Cloud-Native Microservices Deployment
+**AWS, Docker, Kubernetes, Terraform, GitHub Actions, ArgoCD**
 
-- Containerized microservices using Docker
-- Provisioned AWS infrastructure with Terraform
-- Deployed on Kubernetes with Ingress Controller
-- Implemented GitOps workflow with ArgoCD
-- Automated CI/CD with GitHub Actions
+- Packaged 5 small services into Docker containers and stored them in a container registry
+- Used Terraform to set up AWS infrastructure and deployed the services on Kubernetes, cutting environment setup time from hours to minutes
+- Automated building and testing of Docker images with GitHub Actions on every code change
+- Used ArgoCD so deployments updated automatically whenever code changed, cutting manual deployment work by around 70%
 
-### 2. End-to-End CI/CD Pipeline
-**Technologies:** GitHub Actions, Docker, Terraform
+### End-to-End CI/CD Pipeline
+**GitHub Actions, Docker, Terraform**
 
-- Automated Docker image builds
-- Integrated testing and security scans
-- Infrastructure as Code deployment
-- Consistent and repeatable environments
+- Used GitHub Actions to build the Dockerized application automatically on every code commit
+- Added automated tests and basic checks to catch issues before deployment
+- Used Terraform to create 3 separate environments (dev, staging, production), cutting manual setup work by around 65%
 
-### 3. Monitoring & Alerting Stack
-**Technologies:** Prometheus, Grafana
+### Monitoring and Alerting Stack
+**Prometheus, Grafana**
 
-- Deployed monitoring solution
-- Real-time alerting on critical metrics
-- Custom Grafana dashboards
-- Tracked performance and uptime
+- Set up Prometheus and Grafana to collect and display system and application performance data
+- Set up alerts for high CPU usage, high memory usage, and unhealthy pods
+- Built Grafana dashboards to track response time, resource usage, uptime, and traffic
 
 ---
 
-## Technologies Used
-
-**Frontend:**
-- HTML5
-- CSS3
-- JavaScript
-- Ion Icons
-
-**DevOps Tools:**
-- AWS (EC2, S3, IAM, VPC)
-- Docker
-- Kubernetes
-- Terraform
-- GitHub Actions
-- Prometheus
-- Grafana
-- Python
-
----
-
-## Professional Experience
+## Experience
 
 **DevOps Engineer Intern** | KUBICL  
 *February 2025 - May 2025*
 
-- Automated deployment workflows with AWS, Docker, Kubernetes, and Terraform
-- Provisioned and managed cloud infrastructure
-- Built and optimized CI/CD pipelines
-- Implemented monitoring with Prometheus and Grafana
+- Set up AWS infrastructure (EC2, VPC, IAM, S3) using Terraform, so environments could be created quickly and consistently instead of manually
+- Deployed applications using Docker and managed them with Kubernetes on Linux servers
+- Built CI/CD pipelines with GitHub Actions to automatically build and deploy code changes
+- Used ArgoCD so that changes pushed to GitHub were automatically deployed to Kubernetes
+- Set up Prometheus and Grafana to monitor application performance and system health
 
 ---
 
 ## Education
 
-**Bachelor of Technology in Computer Science and Engineering**  
-Sagar Institute of Research and Technology - Excellence  
-2021 - 2025 | CGPA: 7.49/10
+**Master of Technology (MTech) in Computer Science and Engineering**  
+Lakshmi Narain College of Technology University, Bhopal  
+2026 - Present
 
-**Higher Secondary Education**  
-Little Angels H.S. School, Bhopal  
-2019 - 2020
+**Bachelor of Technology (BTech) in Computer Science and Engineering**  
+Sagar Institute of Research and Technology - Excellence, Bhopal  
+2021 - 2025 | CGPA: 7.49 / 10
+
+---
+
+## Built With
+
+HTML5, CSS3, JavaScript, Ion Icons, Google Maps embed. Hosted on GitHub Pages.
 
 ---
 
 ## Project Structure
 
 ```
-portfolio/
+portfolio-website/
 ├── index.html
 ├── assets/
 │   ├── css/
@@ -116,9 +100,6 @@ portfolio/
 │   │   ├── script.js
 │   │   └── nav-fix.js
 │   ├── images/
-│   │   ├── my-avatar.png
-│   │   ├── logo.ico
-│   │   └── icons/
 │   └── files/
 │       └── SYED_AYAAN_ALI_RESUME.pdf
 └── README.md
@@ -126,62 +107,41 @@ portfolio/
 
 ---
 
-## Local Setup
+## Run Locally
 
-### View Locally
-
-1. Clone this repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/syed-ayaan-alii/portfolio-website.git
-```
-
-2. Navigate to the folder:
-```bash
 cd portfolio-website
 ```
 
-3. Open `index.html` in your browser or use a local server:
+2. Open `index.html` in your browser, or start a local server:
 ```bash
-# Using Python
 python -m http.server 8000
-
-# Using Node.js
-npx http-server
-
-# Or use VS Code Live Server extension
 ```
+Then visit `http://localhost:8000`.
 
-4. Visit `http://localhost:8000` in your browser
+---
+
+## Deploy to GitHub Pages
+
+1. Push the repository to GitHub
+2. Go to **Settings** > **Pages**
+3. Under **Source**, select the **main** branch and the **/ (root)** folder
+4. Click **Save**
+5. The site will be live at `https://YOUR-USERNAME.github.io/portfolio-website`
 
 ---
 
 ## Contact
 
-**Syed Ayaan Ali**
-
 - **Email:** ali.ayaan1107@gmail.com
-- **Location:** Bhopal, MP, India
+- **Location:** Bhopal, Madhya Pradesh, India
 - **LinkedIn:** [linkedin.com/in/syed-ayaan-ali](https://www.linkedin.com/in/syed-ayaan-ali)
 - **GitHub:** [github.com/syed-ayaan-alii](https://github.com/syed-ayaan-alii)
-- **Portfolio:** [syed-ayaan-alii.github.io/portfolio-website](https://syed-ayaan-alii.github.io/portfolio-website)
-
-*For additional contact information, please visit my portfolio website or download my resume.*
-
----
-
-## Key Achievements
-
-- State-Level Cricket Player
-- Hands-on DevOps internship experience
-- Multiple cloud and automation projects deployed
 
 ---
 
 ## License
 
 This project is open source and available for personal use.
-
----
-
-**Built with ❤️ by Syed Ayaan Ali**  
-*Last Updated: July 2026*
